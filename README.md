@@ -12,23 +12,12 @@
 ------------------------------------------------------------------------
 
 ## Error Summary Table
-
-  -----------------------------------------------------------------------
-  Error Type        Where
-  ----------------- -----------------------------------------------------
-  Syntax Error      Missing `;` after printf, missing `;` after
-                    `count++`, missing `;` after return
-
-  Logical Error     `if(n = 1)`
-
-  Runtime Error     `scanf("%d", n);`
-
-  Segmentation      `i <= n`
-  Fault             
-
-  Infinite Loop     `for(i = 0; i < n; )`
-
-  Missing Return    `isPrime()`
-
-  Double Free       `free(arr); free(arr);`
-  -----------------------------------------------------------------------
+| Error Type              | Where                                                                           |
+| ----------------------- | ------------------------------------------------------------------------------- |
+| Syntax Error            | Missing `;` after printf, missing `;` after `count++`, missing `;` after return |
+| Logical Error           | `if(n = 1)`                                                                     |
+| Runtime Error           | `scanf("%d", n);`                                                               |
+| Segmentation Fault      | `i <= n`                                                                        |
+| Infinite Loop           | `for(i = 0; i < n; )`                                                           |
+| Missing Return          | `isPrime()`                                                                     |
+| Double Free             | `free(arr); free(arr);`                                                         |
